@@ -27,7 +27,8 @@ how to use github
 > $ git remote add origin git@github.com:yourName/yourRepo.git
 
             yourName表示你在github的用户名，yourRepo表示你在github新创建的仓库
-            加完之后进入.git,打开config,这里会多出一个remote "origin"内容，这就是刚才添加的远程地址，也可以直接修改config来配置远程地址
+            加完之后进入.git,打开config,这里会多出一个remote "origin"内容，
+            这就是刚才添加的远程地址，也可以直接修改config来配置远程地址
             创建新文件夹，打开，然后执行 git init 以创建新的 git 仓库
   
 ### 5.检出仓库
