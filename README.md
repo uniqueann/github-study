@@ -124,6 +124,6 @@ how to use github
 > $ git config format.pretty oneline
 
       交互式添加文件到暂存区：
-      > $ git add -i
+> $ git add -i
 
   
