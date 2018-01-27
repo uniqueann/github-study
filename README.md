@@ -3,7 +3,8 @@ github-study
 how to use github
 
 ### 1.本地创建ssh key
-      $ ssh-keygen -t rsa -C "your_email@youremail.com"
+> $ ssh-keygen -t rsa -C "your_email@youremail.com"
+      
       后面的your_email@youremail.com改为你在github上注册的邮箱，
       之后会要求确认路径和输入密码，我们这使用默认的一路回车就行。
       成功的话会在~/下生成.ssh文件夹，进去，打开id_rsa.pub，复制里面的key
