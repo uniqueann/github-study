@@ -14,9 +14,9 @@ how to use github
 ### 2.验证是否成功
 > $ ssh -T git@github.com
 
-            第一次会提示是否continue,输入yes就会看到提示：
-            Hi xxx! You've successfully authenticated, but GitHub does not provide shell access 。
-            这就表示已成功连上github
+       第一次会提示是否continue,输入yes就会看到提示：
+       Hi xxx! You've successfully authenticated, but GitHub does not provide shell access 。
+       这就表示已成功连上github
   
 ### 3.配置username和email
 > $ git config --global user.name "your name"
@@ -26,16 +26,16 @@ how to use github
       进入要上传的仓库，添加远程地址
 > $ git remote add origin git@github.com:yourName/yourRepo.git
 
-            yourName表示你在github的用户名，yourRepo表示你在github新创建的仓库
-            加完之后进入.git,打开config,这里会多出一个remote "origin"内容，
-            这就是刚才添加的远程地址，也可以直接修改config来配置远程地址
-            创建新文件夹，打开，然后执行 git init 以创建新的 git 仓库
+       yourName表示你在github的用户名，yourRepo表示你在github新创建的仓库
+       加完之后进入.git,打开config,这里会多出一个remote "origin"内容，
+       这就是刚才添加的远程地址，也可以直接修改config来配置远程地址
+       创建新文件夹，打开，然后执行 git init 以创建新的 git 仓库
   
 ### 5.检出仓库
-            创建一个本地仓库的克隆版本:
+       创建一个本地仓库的克隆版本:
 > $ git clone /path/to/repository 
 
-            如果是远端服务器上的仓库，命令会是这个样子:
+       如果是远端服务器上的仓库，命令会是这个样子:
 > $ git clone username@host:/path/to/repository
   
 ### 6.工作流
