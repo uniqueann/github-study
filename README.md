@@ -43,7 +43,8 @@ how to use github
       第一个是你的 工作目录，它持有实际文件；
       第二个是 暂存区（Index），它像个缓存区域，临时保存你的改动；
       最后是 HEAD，它指向你最后一次提交的结果。
-      ![github](http://github.com/unicorn.png "github")     
+   ![github](http://github.com/unicorn.png "github")  
+   
       你可以提出更改（把它们添加到暂存区），使用如下命令：
 > $ git add <filename>
 > $ git add *
