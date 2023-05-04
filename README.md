@@ -1,6 +1,8 @@
-github-study
-======
-how to use github
+---
+title: "how to use github"
+output: pdf_document
+---
+
 
 ### 1.本地创建ssh key
 > $ ssh-keygen -t rsa -C "your_email@youremail.com"
